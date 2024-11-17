@@ -11,7 +11,9 @@ function App() {
   return (
     <div className="App">
       {/* Header Section */}
+      {/*<createNotification />*/}
       <div className="App-header">
+        <p>{createNotifications()}</p>
         <img src={holbertonLogo} alt="Holberton logo" />
         <h1>School dashboard</h1>
 
@@ -25,7 +27,6 @@ function App() {
       {/* Footer Section */}
       <div className="App-footer">
         <p>Copyright {getFullYear()} - {getFooterCopy(true)}</p>
-        <p>{createNotifications()}</p>
       </div>
     </div>
   );
