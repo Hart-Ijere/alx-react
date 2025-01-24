@@ -8,6 +8,7 @@ import holbertonLogo from './holberton-logo.jpg';
 function App() {
   return (
     <div className="App">
+      
       {/* Header Section */}
       <div className="App-header">
         <img src={holbertonLogo} alt="Holberton logo" />
