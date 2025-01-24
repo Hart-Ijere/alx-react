@@ -1,7 +1,7 @@
 //import logo from './logo.svg';
 //import holbertonLogo, favicon from '\0x01-react_intro\task_0\dashboard\src';
-//import favicon //from '\0x01-react_intro\task_0\dashboard\src';
 import React from 'react';
+//import favicon  from './favicon.ico';
 import './App.css';
 import holbertonLogo from './holberton-logo.jpg';
 
